@@ -54,10 +54,6 @@
     padding: 0px 20px;
 }
 
-.navigation a:last-child{
-    padding-right: 0;
-}
-
 .navigation a li{
     display: table-cell;
     vertical-align: middle;
@@ -67,26 +63,20 @@
     font-size: 18px;
 }
 h2{
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 45px;
-}
-
-
-
-.column{
-    float: right;
-    width: 20%;
-    padding: 10px;
-    padding-right: 80px;
-    margin-left: 10px;   
 }
 
 p{
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;  
   line-height: 1.5;
+  font-size: 16px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 10px;
 }
 
 .row::after{
@@ -94,18 +84,26 @@ p{
     display: table;
     clear: both;
 }
-body{
-    margin: 0;
-    background-color: rgb(255, 255, 255);
-    min-height: 100vh;
-    overflow-x: hidden;
+.column{
+    float: right;
+    width: 20%;
+    padding: 10px;
+    padding-right: 80px;
+    margin-left: 10px;   
 }
 img {
     float: right;
     width:  280px;
     height: 280px;
     object-fit: cover;
-    
+    margin-right: 75px;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    overflow-x: hidden;
 }
 
 a:link {

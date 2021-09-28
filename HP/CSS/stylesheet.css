@@ -27,7 +27,6 @@
     float: left;
     padding-top: 10px;
     font-family: 'Roboto Condensed', sans-serif;
-
     font-size: 32px;
 }
 .logo_container h1{
@@ -56,10 +55,6 @@
     padding: 0px 20px;
 }
 
-.navigation a:last-child{
-    padding-right: 0;
-}
-
 .navigation a li{
     display: table-cell;
     vertical-align: middle;
@@ -71,25 +66,29 @@
 h2{
     text-align: center;
     font-size: 45px;
-    padding-top: 10%;
+    padding-top: 20px;
     font-family:'Roboto Condensed', sans-serif;
     text-transform: uppercase;
-    color: rgb(47, 95, 168);
+    color: rgb(0, 0, 0);
+    margin-left: 350px;
 
 }
 img{
-    padding-left: 350px;
     padding-bottom: 40px;
     padding-top: 20px;
+    margin-left: 500px;
+    
 }
 p{
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     color: rgb(0, 0, 0);
+    margin-left: 75px;
+    margin-right: 75px;
 }
 body{
     background-color: rgb(255, 255, 255);
@@ -123,6 +122,9 @@ footer{
     background-color: rgb(47, 95, 168);
     width: 100%;
     text-align: center;
-  text-decoration: white;
 }
-
+li{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 2;
+}

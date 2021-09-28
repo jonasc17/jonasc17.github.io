@@ -54,10 +54,6 @@
     padding: 0px 20px;
 }
 
-.navigation a:last-child{
-    padding-right: 0;
-}
-
 .navigation a li{
     display: table-cell;
     vertical-align: middle;
@@ -76,8 +72,8 @@ h2{
     color: rgb(0, 0, 0);
 }
 h3{
-    padding-left: 200px;
-    padding-top: 80px;
+    padding-left: 350px;
+    padding-top: 20px;
     padding-bottom: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 45px;
@@ -89,9 +85,11 @@ p{
     padding-bottom: 4px;
     padding-top: 4px;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     text-align: center;
+    margin-left: 100px;
+  margin-right: 100px;
 }
 li{
     padding-top: 15px;
@@ -103,7 +101,7 @@ li{
 b{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 25px;
-    color: rgb(3, 64, 155);
+    color: rgb(3, 37, 148);
 }
 img {
     float: center;
